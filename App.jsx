@@ -36,7 +36,7 @@ function App() {
 
           <button
             className="shop-btn"
-            onClick={() => window.open("https://www.amazon.in", "_blank")}
+            onClick={() => window.location.href = "https://www.amazon.in", "_blank"}
             >
             Shop Now
           </button>
